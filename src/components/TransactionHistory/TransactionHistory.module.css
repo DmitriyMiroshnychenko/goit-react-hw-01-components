@@ -1,0 +1,53 @@
+.transactionHistory {
+    margin-left: auto;
+    margin-right: auto;
+    width: 880px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%);
+    border-collapse: collapse;
+  }
+  
+  /* tr */
+  
+  .transactionHistory tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .transactionHistory tr:nth-child(even) {
+    background-color: #ecf1f4;
+  }
+  
+  /* th */
+  
+  .transactionHistory th {
+    padding: 18px;
+    background-color: #34207c;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .transactionHistory th:not(:last-child) {
+    border-right: 1px solid #ffffff;
+  }
+  
+  /* td */
+  
+  .transactionHistory td {
+    padding: 18px;
+    width: 33.3%;
+    border-right: 1px solid #e0e5e8;
+    color: #0e398d;
+    text-align: center;
+  }
+  
+  .transactionHistory td:not(:last-child) {
+    border-right: 1px solid #e0e5e8;
+  }
+  
+  .transactionHistory td:first-child {
+    padding-left: 126px;
+    text-align: left;
+    text-transform: capitalize;
+  }
+  
